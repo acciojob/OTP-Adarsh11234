@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,16 +8,18 @@
 </head>
 <body>
   <div class="container">
-    <h1 id="verification_heading">OTP Verification</h1>
+    
+    <h1 id="verification_heading">Verify Your Account</h1>
+    
     <p id="verification_subtext">Enter the 6-digit code sent to your email.</p>
 
     <div class="code-container">
-      <input type="number" class="code" placeholder="0" min="0" max="9" required>
-      <input type="number" class="code" placeholder="0" min="0" max="9" required>
-      <input type="number" class="code" placeholder="0" min="0" max="9" required>
-      <input type="number" class="code" placeholder="0" min="0" max="9" required>
-      <input type="number" class="code" placeholder="0" min="0" max="9" required>
-      <input type="number" class="code" placeholder="0" min="0" max="9" required>
+      <input type="number" id="code-0" class="code" placeholder="0" min="0" max="9" required>
+      <input type="number" id="code-1" class="code" placeholder="0" min="0" max="9" required>
+      <input type="number" id="code-2" class="code" placeholder="0" min="0" max="9" required>
+      <input type="number" id="code-3" class="code" placeholder="0" min="0" max="9" required>
+      <input type="number" id="code-4" class="code" placeholder="0" min="0" max="9" required>
+      <input type="number" id="code-5" class="code" placeholder="0" min="0" max="9" required>
     </div>
 
     <button id="verify-button">Verify</button>
