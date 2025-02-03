@@ -8,3 +8,10 @@ codes.forEach((code, idx) => {
         }
     });
 });
+
+    code.addEventListener('keydown', (e) => {
+        if (e.key === 'Backspace' && idx > 0 && !e.target.value) {
+            codes[idx - 1].focus();
+        }
+    });
+});
